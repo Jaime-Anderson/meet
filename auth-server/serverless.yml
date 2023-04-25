@@ -19,16 +19,3 @@ functions:
       - http:
           path: api/get-auth-url
           method: get
-  getAccessToken:
-    handler: handler.getAccessToken
-    events:
-      -????
-        path: ???
-        method: get
-  getCalendarEvents:
-    handler: handler.getCalenderEvents
-    events:
-      -???
-        path: ???
-        method: get
-
